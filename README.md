@@ -26,7 +26,7 @@ Like leaves on the wind
 	d = DOMReader.new(html)
 	```
 
-	- Want a quick way to verify the rendered output is the same as the HTML string?
+1. Want a quick way to verify the rendered output is the same as the HTML string?
 
 	```ruby
 	html.gsub(/\s/, '') == d.render.gsub(/\s/, '')
