@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe DOMReader do
-	let(:html){File.read('test.html')}
-	let(:d){DOMReader.new(html)}
+	let(:html) { File.read('test.html') }
+	let(:d) { DOMReader.new(html) }
 
 	before do
 		d
